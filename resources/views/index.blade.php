@@ -14,9 +14,8 @@
         </div>
         <div class="row g-5">
             @foreach ($movies as $movie)
-            <div class="col-3">
+            <div class="col-3 p-5">
                 <div class="card">
-                    <img src="https://www.gaetanews24.it/news/wp-content/uploads/2018/10/video11.jpg" class="img-fluid" alt="">
                     <h3 class="text-info pt-3 text-center">Titolo: {{$movie->title}}</h3>
                     <h5 class="text-center text-danger fw-semibold">Movie-ID: {{$movie->id}}</h5>
                     <p class="text-center fw-semibold">Nationality: {{$movie->nationality}}</p>
